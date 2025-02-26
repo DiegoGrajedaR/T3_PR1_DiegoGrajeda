@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace T3_PR1_Practica1
 {
-    public abstract class AEnergySystem
+    public abstract class AEnergySystem : IEnergyCalculation
     {
         public DateTime SimulationDate { get; set; }
 

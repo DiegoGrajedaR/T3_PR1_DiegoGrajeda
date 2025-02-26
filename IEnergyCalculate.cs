@@ -1,7 +1,7 @@
 ﻿using System;
 
-interface ICalculEnergia
+interface IEnergyCalculation
 {
-    void ConfigurarParametros();
-    double CalcularEnergia();
+    void ParameterConfigure();
+    double EnergyCalculate();
 }
